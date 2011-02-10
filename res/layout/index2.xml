@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:background="#000066" android:layout_width="fill_parent"
+		android:layout_height="16dip" android:padding="1dip">
+		<ImageView android:id="@+id/clock" android:layout_width="16dip"
+			android:layout_height="fill_parent" android:layout_marginRight="1dip"
+			android:src="@drawable/clock" />
+		<TextView android:id="@+id/secondLine" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_toRightOf="@id/clock"
+			android:textSize="11sp" android:singleLine="true" android:text="If you like,send it!" />
+	</RelativeLayout>
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="?android:attr/listPreferredItemHeight"
+		android:padding="6dip">
+
+		<ImageView android:id="@+id/icon" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_alignParentTop="true"
+			android:layout_alignParentBottom="true" android:layout_marginRight="6dip"
+			android:src="@drawable/index_menu1" />
+		<TextView android:id="@+id/secondLine" android:layout_width="fill_parent"
+			android:layout_height="20dip" android:layout_toRightOf="@id/icon"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" android:singleLine="true"
+			android:ellipsize="marquee"
+			android:textSize="11sp"
+			android:text="可个性化地群发信息，可设置定时" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_toRightOf="@id/icon"
+			android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+			android:layout_above="@id/secondLine"
+			android:layout_alignWithParentIfMissing="true" android:gravity="center_vertical"
+			android:text="新建信息" />
+	</RelativeLayout>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="?android:attr/listPreferredItemHeight"
+		android:padding="6dip">
+
+		<ImageView android:id="@+id/icon" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_alignParentTop="true"
+			android:layout_alignParentBottom="true" android:layout_marginRight="6dip"
+			android:src="@drawable/index_menu2" />
+		<TextView android:id="@+id/secondLine" android:layout_width="fill_parent"
+			android:layout_height="20dip" android:layout_toRightOf="@id/icon"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" android:singleLine="true"
+			android:ellipsize="marquee"
+			android:textSize="11sp"
+			android:text="查看您计划中的定时信息" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_toRightOf="@id/icon"
+			android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+			android:layout_above="@id/secondLine"
+			android:layout_alignWithParentIfMissing="true" android:gravity="center_vertical"
+			android:text="定时信息" />
+	</RelativeLayout>
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="?android:attr/listPreferredItemHeight"
+		android:padding="6dip">
+
+		<ImageView android:id="@+id/icon" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_alignParentTop="true"
+			android:layout_alignParentBottom="true" android:layout_marginRight="6dip"
+			android:src="@drawable/index_menu3" />
+		<TextView android:id="@+id/secondLine" android:layout_width="fill_parent"
+			android:layout_height="20dip" android:layout_toRightOf="@id/icon"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" android:singleLine="true"
+			android:ellipsize="marquee"
+			android:textSize="11sp"
+			android:text="您过去发送的信息" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_toRightOf="@id/icon"
+			android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+			android:layout_above="@id/secondLine"
+			android:layout_alignWithParentIfMissing="true" android:gravity="center_vertical"
+			android:text="历史信息" />
+	</RelativeLayout>
+	
+	
+</LinearLayout>

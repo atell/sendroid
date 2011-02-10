@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/index" >
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:background="#000066" android:layout_width="fill_parent"
+		android:layout_height="16dip" android:padding="1dip">
+		<ImageView android:id="@+id/clock" android:layout_width="16dip"
+			android:layout_height="fill_parent" android:layout_marginRight="1dip"
+			android:src="@drawable/clock" />
+		<TextView android:id="@+id/secondLine" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_toRightOf="@id/clock"
+			android:textSize="11sp" android:singleLine="true" android:text="If you like,send it!" />
+	</RelativeLayout>
+
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1" />
+
+
+</LinearLayout>

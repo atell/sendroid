@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Senderoid</string>
+    
+    <string name="mates">mates</string>
+    <string name="mates_tab">团队成员</string>
+    
+    <string name="location">location</string>
+    <string name="location_tab">团队身影</string>
+    
+    <string name="news">news</string>
+    <string name="news_tab">团队号外</string>
+    
+    <string name="meeting">meeting</string>
+    <string name="meeting_tab">会议提醒</string>
+    
+</resources>
