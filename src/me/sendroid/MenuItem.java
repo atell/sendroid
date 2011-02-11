@@ -20,19 +20,25 @@ public class MenuItem extends RelativeLayout {
 //		this.setLayoutParams(params);
 		// params.setMargins(5, 3, 5, 0);
 		LayoutParams imageViewLayoutParams = new LayoutParams(
-				LayoutParams.WRAP_CONTENT, LayoutParams.FILL_PARENT);
+				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 //		imageViewLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP);
 //		imageViewLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
 		// imageViewLayoutParams.rightMargin = 6;
+		imageViewLayoutParams.topMargin =2;
+		imageViewLayoutParams.bottomMargin =1;
+		imageViewLayoutParams.leftMargin=2;
 		ImageView imageView = new ImageView(context);
 		imageView.setImageDrawable(drawable);
 		imageView.setLayoutParams(imageViewLayoutParams);
 		this.addView(imageView);
+		
 		LayoutParams textView1LayoutParams = new LayoutParams(
 				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 		textView1LayoutParams.addRule(RIGHT_OF, imageView.getId());
-		textView1LayoutParams.addRule(BELOW, imageView.getId());
+//		textView1LayoutParams.addRule(BELOW, imageView.getId());
 		//textView1LayoutParams.addRule(ALIGN_PARENT_TOP);
+		textView1LayoutParams.topMargin =2;
+		textView1LayoutParams.leftMargin = 46;
 		TextView bigTextView = new TextView(context);
 		bigTextView.setText(bigText);
 		bigTextView.setTextSize(16f);
@@ -44,7 +50,7 @@ public class MenuItem extends RelativeLayout {
 				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 		textView2LayoutParams.addRule(ALIGN_PARENT_RIGHT);
 		textView2LayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-		
+		textView2LayoutParams.bottomMargin =1;
 		TextView smallTextView = new TextView(context);
 		smallTextView.setText(bigText);
 		smallTextView.setTextSize(12f);

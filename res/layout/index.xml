@@ -11,7 +11,7 @@
 			android:src="@drawable/clock" />
 		<TextView android:id="@+id/secondLine" android:layout_width="fill_parent"
 			android:layout_height="fill_parent" android:layout_toRightOf="@id/clock"
-			android:textSize="11sp" android:singleLine="true" android:text="If you like,send it!" />
+			android:textSize="11sp" android:singleLine="true" android:text="Send to all , but specially !" />
 	</RelativeLayout>
 
 	<ListView android:id="@android:id/list" android:layout_width="fill_parent"

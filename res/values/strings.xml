@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Senderoid</string>
+    <string name="app_name">sendroid</string>
     
     <string name="mates">mates</string>
     <string name="mates_tab">团队成员</string>

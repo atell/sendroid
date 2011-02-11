@@ -25,11 +25,11 @@ public class IndexActivity extends ListActivity {
 		Resources res = this.getResources();
 		// ListAdapter
 		MenuItem menuItem1 = new MenuItem(this, res
-				.getDrawable(R.drawable.index_menu1), "ABC", "abc");
+				.getDrawable(R.drawable.index_menu1), "新建信息", "可以定时和群发个性化的信息");
 		MenuItem menuItem2 = new MenuItem(this, res
-				.getDrawable(R.drawable.index_menu2), "ABC", "abc");
+				.getDrawable(R.drawable.index_menu2), "已计划信息", "这里是已经计划好但未发送的信息");
 		MenuItem menuItem3 = new MenuItem(this, res
-				.getDrawable(R.drawable.index_menu3), "ABC", "abc");
+				.getDrawable(R.drawable.index_menu3), "历史信息", "这里是您过往的信息");
 		menuItems.add(menuItem1);
 		menuItems.add(menuItem2);
 		menuItems.add(menuItem3);
